@@ -1,6 +1,6 @@
 FROM alpine
 
-ENV PLATFORM x68
+ENV PLATFORM 386
 ENV VERSYNC_VERSION 1.3.5
 
 RUN wget https://raw.githubusercontent.com/Taygetus/verysync/master/verysync/verysync-linux-${PLATFORM}-v${VERSYNC_VERSION}.tar.gz \
